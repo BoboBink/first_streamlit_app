@@ -66,9 +66,4 @@ if streamlit.button('Get Fruit Load List'):
 
 
 
-add_my_fruit=streamlit.text_input('What fruit would you to add?','jackfruit')
-streamlit.write('Thanks for adding',add_my_fruit)
-
-#This code will not work...
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
